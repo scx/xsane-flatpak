@@ -123,6 +123,7 @@ post-install:
     install -p -D -m 0644 "hpaio" -t "${FLATPAK_DEST}/etc/sane.d/dll.d/";
   - install -p -D -m 0644 "COPYING" -t "${FLATPAK_DEST}/share/licenses/hpaio/";
 modules:
+  - shared-modules/python2.7/python-2.7.json
   - net-snmp.yaml
 cleanup:
   - /lib/cups
