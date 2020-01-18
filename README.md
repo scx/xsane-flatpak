@@ -44,11 +44,11 @@ See also:
 ### Prepare
 
 ```
-$ flatpak install "flathub" "org.freedesktop.Sdk//19.08"
+$ flatpak --user install "flathub" "org.freedesktop.Sdk//19.08"
 ```
 
 ```
-$ flatpak install "flathub" "org.freedesktop.Platform//19.08"
+$ flatpak --user install "flathub" "org.freedesktop.Platform//19.08"
 ```
 
 Clone this repository, then checkout the right branch.
@@ -98,7 +98,7 @@ $ flatpak --user install "xsane" "com.gitlab.sane_project.XSane"
 ### Run
 
 ```
-$ flatpak run "com.gitlab.sane_project.XSane"
+$ flatpak --user run "com.gitlab.sane_project.XSane"
 ```
 
 ### Uninstall
